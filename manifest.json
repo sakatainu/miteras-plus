@@ -1,0 +1,16 @@
+{
+  "name": "miteras-plus",
+  "description": "miteras-plus",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://kintai.miteras.jp/PTCS/work-condition/*"
+      ]
+    }
+  ]
+}
